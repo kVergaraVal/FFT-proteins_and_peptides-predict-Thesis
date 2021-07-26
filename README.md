@@ -27,6 +27,35 @@ Además de comparar con distintas formas de codificación, se decidió contrasta
 
 ## Caracterización de los Espectros de Fourier
 
+La forma de codificación central del presente trabajo es la digitalización de propiedades fisicoquímicas. Es decir, la transformación del perfil fisicoquímico de las secuencias aminoacídicas en el dominio temporal (posición de residuo) a espectros de Fourier en dominio de frecuencias. Para ello, es necesario determinar qué propiedades fisicoquímicas de las 565 existentes se evaluarán. A base de un trabajo del Centro de Biotecnología y Bioingeniería (CeBiB), se redujo la selección a 8 propiedades:
+* PRAM900102
+* PRAM900103
+* COSI940101
+* HOPT810101
+* JOND750101
+* GRAR740103
+* RADA880106
+
+El archivo que detalla las 565 propiedades y la codificación de cada uno de los 20 aminoácidos es AAindex.csv. La codificación de los conjuntos en cada uno de las propiedades se encuentra en la carpeta "Encodings" y fue realizado por el código encodings_process.ipynb.
+
+Posteriormente, se visualizaron los espectros para poder interpretar fenomenológicamente algunas características de los conjuntos. Esto se muestra en la carpeta "Data - Visualization - Spectrums". El código que genera las imágenes es Characterization.ipynb.
+
 ## Construcción e Implementación de los modelos
 
+Se trabajaron con los siguientes algoritmos de aprendizaje supervisado, tanto para los problemas de regresión como los de clasificación:
+* Support Vector Machine
+* K-Nearest Neighbor
+* Random Forest
+* Neural Network
+* Convolutional Neural Network
+
+Se exploró los mejores desempeños logrados para cada conjunto de dato, determinando:
+* Mejor forma de codificación
+* Mejor algoritmo
+* Propiedad Fisicoquímica más informativa
+
+El código que logra esto es Models.ipynb.
+
 ## Indicadores de desempeño
+
+Finalmente, se grafican las matrices de confusión y ROC para los problemas de clasificación (los de regresión están detallados en el informe de tesis). Esto se encuentra en la carpeta "Evaluation Metrics".
