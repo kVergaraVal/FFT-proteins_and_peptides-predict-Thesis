@@ -19,7 +19,7 @@ Para poder visualizar preliminarmente los datos y poder estandarizarlos/normaliz
 * Amino Acid Composition (AAC)
 * Dipeptide Composition.
 
-El código que transforma los datos en distintas formas de codificación está en el archivo encodings_process.ipynb. El código que visualiza los datos corresponde al archivo Characterization.ipynb. Las carpetas asociadas son "Encodings" y "Data Visualization - Sequence and Response", respectivamente.
+El código que transforma los datos en distintas formas de codificación está en el archivo encodings_process.ipynb. El código que visualiza los datos corresponde al archivo Characterization.ipynb. Las carpetas asociadas son [Encodings] (https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/tree/main/Encodings) y [Data Visualization - Sequence and Response](), respectivamente.
 
 ## Alineamiento de secuencias
 
@@ -59,3 +59,8 @@ El código que logra esto es Models.ipynb.
 ## Indicadores de desempeño
 
 Finalmente, se grafican las matrices de confusión y ROC para los problemas de clasificación (los de regresión están detallados en el informe de tesis). Esto se encuentra en la carpeta "Evaluation Metrics".
+
+## Más información
+
+Para el informe, consultar en Informe.pdf.
+Para ver la presentación de la defensa de tesis, consultar en Presentación.pdf
