@@ -27,14 +27,15 @@ Además de comparar con distintas formas de codificación, se decidió contrasta
 
 ## Caracterización de los Espectros de Fourier
 
-La forma de codificación central del presente trabajo es la digitalización de propiedades fisicoquímicas. Es decir, la transformación del perfil fisicoquímico de las secuencias aminoacídicas en el dominio temporal (posición de residuo) a espectros de Fourier en dominio de frecuencias. Para ello, es necesario determinar qué propiedades fisicoquímicas de las 565 existentes se evaluarán. A base de un trabajo del Centro de Biotecnología y Bioingeniería (CeBiB), se redujo la selección a 8 propiedades:
-* PRAM900102
-* PRAM900103
-* COSI940101
-* HOPT810101
-* JOND750101
-* GRAR740103
-* RADA880106
+La forma de codificación central del presente trabajo es la digitalización de propiedades fisicoquímicas. Es decir, la transformación del perfil fisicoquímico de las secuencias aminoacídicas en el dominio temporal (posición de residuo) a espectros de Fourier en dominio de frecuencias. Para ello, es necesario determinar qué propiedades fisicoquímicas de las 565 existentes se evaluarán. A base de un trabajo del [Centro de Biotecnología y Bioingeniería (CeBiB)](https://cebib.cl/es/), se redujo la selección a 8 propiedades:
+* PRAM900102 (Frecuencia relativa en hélices alfa)
+* PRAM900103 (Frecuencia relativa en hojas beta)
+* COSI940101 (Valores de potencial de interacción electrón-ion)
+* HOPT810101 (Valor de hidrofilicidad)
+* JOND750101 (Hidrofobicidad)
+* RADA880106 (Área de superficie accesible)
+* GRAR740103 (Volumen)
+* FASG760101 (Peso Molecular)
 
 El archivo que detalla las 565 propiedades y la codificación de cada uno de los 20 aminoácidos es [AAindex.csv](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/blob/main/AAindex.csv). La codificación de los conjuntos en cada uno de las propiedades se encuentra en la carpeta [Encodings](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/tree/main/Encodings) y fue realizado por el código [encodings_process.ipynb](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/blob/main/Code/encodings_process.ipynb).
 
