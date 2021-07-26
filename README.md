@@ -19,11 +19,11 @@ Para poder visualizar preliminarmente los datos y poder estandarizarlos/normaliz
 * Amino Acid Composition (AAC)
 * Dipeptide Composition.
 
-El código que transforma los datos en distintas formas de codificación está en el archivo encodings_process.ipynb. El código que visualiza los datos corresponde al archivo Characterization.ipynb. Las carpetas asociadas son [Encodings](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/tree/main/Encodings) y [Data Visualization - Sequence and Response](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/tree/main/Data%20Visualization%20-%20Sequence%20and%20Response), respectivamente.
+El código que transforma los datos en distintas formas de codificación está en el archivo [encodings_process.ipynb](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/blob/main/Code/encodings_process.ipynb). El código que visualiza los datos corresponde al archivo [Characterization.ipynb](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/blob/main/Code/Characterization.ipynb). Las carpetas asociadas son [Encodings](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/tree/main/Encodings) y [Data Visualization - Sequence and Response](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/tree/main/Data%20Visualization%20-%20Sequence%20and%20Response), respectivamente.
 
 ## Alineamiento de secuencias
 
-Además de comparar con distintas formas de codificación, se decidió contrastar con un método completamente diferente y puramente biológico: alineamiento múltiple. Aquí, se utilizó el software bioinformático MEGA, con el objetivo final de obtener las matrices de distancias de cada conjunto. Para ello, se requirió tener las secuencias en formato .fasta. Los archivos e imágenes de esta etapa se encuentran en la carpeta "Alineamiento"
+Además de comparar con distintas formas de codificación, se decidió contrastar con un método completamente diferente y puramente biológico: alineamiento múltiple. Aquí, se utilizó el software bioinformático MEGA, con el objetivo final de obtener las matrices de distancias de cada conjunto. Para ello, se requirió tener las secuencias en formato .fasta. Los archivos e imágenes de esta etapa se encuentran en la carpeta [Alignment](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/tree/main/Alignment).
 
 ## Caracterización de los Espectros de Fourier
 
@@ -36,9 +36,9 @@ La forma de codificación central del presente trabajo es la digitalización de 
 * GRAR740103
 * RADA880106
 
-El archivo que detalla las 565 propiedades y la codificación de cada uno de los 20 aminoácidos es AAindex.csv. La codificación de los conjuntos en cada uno de las propiedades se encuentra en la carpeta "Encodings" y fue realizado por el código encodings_process.ipynb.
+El archivo que detalla las 565 propiedades y la codificación de cada uno de los 20 aminoácidos es [AAindex.csv](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/blob/main/AAindex.csv). La codificación de los conjuntos en cada uno de las propiedades se encuentra en la carpeta [Encodings](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/tree/main/Encodings) y fue realizado por el código [encodings_process.ipynb](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/blob/main/Code/encodings_process.ipynb).
 
-Posteriormente, se visualizaron los espectros para poder interpretar fenomenológicamente algunas características de los conjuntos. Esto se muestra en la carpeta "Data - Visualization - Spectrums". El código que genera las imágenes es Characterization.ipynb.
+Posteriormente, se visualizaron los espectros para poder interpretar fenomenológicamente algunas características de los conjuntos. Esto se muestra en la carpeta [Data - Visualization - Spectrums](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/tree/main/Data%20Visualization%20-%20Spectrums). El código que genera las imágenes es [Characterization.ipynb](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/blob/main/Code/Characterization.ipynb)
 
 ## Construcción e Implementación de los modelos
 
@@ -54,13 +54,13 @@ Se exploró los mejores desempeños logrados para cada conjunto de dato, determi
 * Mejor algoritmo
 * Propiedad Fisicoquímica más informativa
 
-El código que logra esto es Models.ipynb.
+El código que logra esto es [Models.ipynb](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/blob/main/Code/Models.ipynb).
 
 ## Indicadores de desempeño
 
-Finalmente, se grafican las matrices de confusión y ROC para los problemas de clasificación (los de regresión están detallados en el informe de tesis). Esto se encuentra en la carpeta "Evaluation Metrics".
+Finalmente, se grafican las matrices de confusión y ROC para los problemas de clasificación (los de regresión están detallados en el informe de tesis). Esto se encuentra en la carpeta [Evaluation Metrics](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/tree/main/Evaluation%20Metrics).
 
 ## Más información
 
-Para el informe, consultar en Informe.pdf.
-Para ver la presentación de la defensa de tesis, consultar en Presentación.pdf
+Para el informe, consultar en [Informe.pdf](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/blob/main/Informe.pdf).
+Para ver la presentación de la defensa de tesis, consultar en [Presentación.pdf](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/blob/main/Presentaci%C3%B3n.pdf).
