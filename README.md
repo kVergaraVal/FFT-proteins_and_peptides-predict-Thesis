@@ -4,7 +4,7 @@ Esta tesis tiene como objetivo la validación del uso de la digitalización de l
 
 ## Conjuntos de datos
 
-Se emplearon 19 conjuntos de datos en este trabajo, los cuales están disponibles en la carpeta "Datasets CSV" y documentados en el excel Datasets_characterization.xlsx. En particular, se tomaron 5 casos de estudio para un análisis y discusión más profunda:
+Se emplearon 19 conjuntos de datos en este trabajo, los cuales están disponibles en la carpeta [Datasets CSV](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/tree/main/Datasets%20CSV) y documentados en el excel [Datasets_characterization.xlsx](https://github.com/kVergaraVal/FFT-proteins_and_peptides-predict-Thesis/blob/main/Datasets_caracterization.xlsx?raw=true). En particular, se tomaron 5 casos de estudio para un análisis y discusión más profunda:
 * Enantioselectivity
 * T50
 * VaxinPad
